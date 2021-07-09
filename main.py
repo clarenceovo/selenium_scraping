@@ -11,7 +11,7 @@ def get_transaction_fb():
     try:
         chromeOptions = webdriver.ChromeOptions()
         chromeOptions.add_experimental_option("debuggerAddress", "127.0.0.1:9888")
-        chromeOptions.add_argument(r"C:\Users\Clarence Fung - ACDX\AppData\Local\Google\Chrome\User Data\Profile 1")
+        chromeOptions.add_argument(r"")
         chrome_driver = "C:\chromedriver.exe"
         driver = webdriver.Chrome(executable_path=chrome_driver, chrome_options=chromeOptions)
         driver.get("https://pro.nansen.ai/smart-money?segment=Flash%20Boy")
@@ -62,7 +62,7 @@ def get_transaction_fund():
     try:
         chromeOptions = webdriver.ChromeOptions()
         chromeOptions.add_experimental_option("debuggerAddress", "127.0.0.1:9888")
-        chromeOptions.add_argument(r"C:\Users\Clarence Fung - ACDX\AppData\Local\Google\Chrome\User Data\Profile 1")
+        chromeOptions.add_argument(r"")
         chrome_driver = "C:\chromedriver.exe"
         driver = webdriver.Chrome(executable_path=chrome_driver, chrome_options=chromeOptions)
         driver.get("https://pro.nansen.ai/smart-money?segment=Fund")
@@ -115,7 +115,7 @@ def get_token_transfer():
     try:
         chromeOptions = webdriver.ChromeOptions()
         chromeOptions.add_experimental_option("debuggerAddress", "127.0.0.1:9888")
-        chromeOptions.add_argument(r"C:\Users\Clarence Fung - ACDX\AppData\Local\Google\Chrome\User Data\Profile 1")
+        chromeOptions.add_argument(r"")
         chrome_driver = "C:\chromedriver.exe"
         driver = webdriver.Chrome(executable_path=chrome_driver, chrome_options=chromeOptions)
         driver.get("https://pro.nansen.ai/smart-money")
